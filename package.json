@@ -1,0 +1,27 @@
+{
+  "name": "App",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "EXPO_USE_METRO_WORKSPACE_ROOT=1 expo start",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@types/react": "~18.3.12",
+    "@types/react-native": "^0.73.0",
+    "prettier": "^3.3.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "expo": "^52.0.23",
+    "metro": "^0.81.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "^0.76.5"
+  }
+}
